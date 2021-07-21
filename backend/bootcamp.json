@@ -1,0 +1,46 @@
+{
+    "bootcamp": [
+        {
+            "name": "Bytes4Future",
+            "address": "R. Padre Alberto Neto, 2725-531 Algueirão-Mem Martins",
+            "contact": "21 926 7080",
+            "email": "geral@bytes4future.pt",
+            "website": "https://bytes4future.pt/en"
+        },
+        {
+            "name": "Academia do Código",
+            "address": "Tv. de São Pedro 8, 1200-342 Lisboa",
+            "contact": "21 926 7080",
+            "email": "contact@academiadocodigo.org",
+            "website": "https://www.academiadecodigo.org/"
+        },
+        {
+            "name": "Ironhack",
+            "address": "Jardim do Tabaco Terminal de Cruzeiros de Lisboa Edifício NW, 1º Piso, 1100-651 Lisboa",
+            "contact": "21 926 7080",
+            "email": "contact@ironhack.com",
+            "website": "https://www.ironhack.com/pt"
+        },
+        {
+            "name": "Le Wagon",
+            "address": "Rua do Conde de Redondo 91B, 1150-103 Lisboa",
+            "contact": "+351 911 902 020",
+            "email": "contact@lewagon.com",
+            "website": "https://www.lewagon.com/"
+        },
+        {
+            "name": "Le Capsule",
+            "address": "Rua do Grilo 135, 1950-144 Lisboa",
+            "contact": "21 926 7080",
+            "email": "contact@lecapusle.academy",
+            "website": "https://www.lacapsule.academy/"
+        },
+        {
+            "name": "42 Lisboa",
+            "address": "R. Neves Ferreira 13, 1170-070 Lisboa",
+            "contact": "21 926 7080",
+            "email": "contact@42lisboa.com",
+            "website": "https://www.42lisboa.com/"
+        }
+    ]
+}

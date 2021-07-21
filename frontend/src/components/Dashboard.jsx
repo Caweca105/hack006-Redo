@@ -1,18 +1,17 @@
 import React, { useState, useEffect } from 'react';
+import Navbar from './Navbar';
 import styles from '../styles/Dashboard.module.css'
 
 function Dashboard() {
   return (
     <div className={styles.Dashboard}>
-      <div className={styles.Navbar}>
-        <img src="/images/sinta_logo.png" />
-      </div>
+      <Navbar />
       <div className={styles.Container}>
         <div className={styles.Profile}>
           Nome
         </div>
-        <div className={styles.Main}>
-          <div className={styles.Card}>Conteudo</div>
+        <div className={styles.ContainerMain}>
+          <div className={styles.Main}>Conteudo</div>
         </div>
         <div className={styles.Content}>
           <div className={styles.Bootcamp}>Escolas</div>

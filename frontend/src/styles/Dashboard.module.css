@@ -25,12 +25,19 @@
     height: 100vh;
 }
 
-.Main {
-    display: flex;
-
-    background: blue;
+.ContainerMain {
+    
     width: 50%;
     height: 100vh;
+}
+
+.Main {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background: blue;
+    width: 100%;
+    height: 70vh;
 }
 
 
