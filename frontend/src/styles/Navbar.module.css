@@ -1,7 +1,26 @@
 .Navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   background: #5E9984;
+}
+
+.LinkNavbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.LinkNavbar Link {
+  color: #fff;
 }
 
 .Navbar img {
     max-width: 150px;
+}
+
+.LogOut {
+  width: 5%;
+  margin-left: 10px;
 }

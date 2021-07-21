@@ -9,21 +9,22 @@ import {
   Route
 } from "react-router-dom";
 
+
 function App() {
   const location = useLocation();
   return <div>
 
       <LandingPage pagina = {location.pathname} />
       <Switch>
-        <Route exact path="/logIn" children={<logIn />}></Route>
-        <Route exact path="/signUp" children={<signUp />}></Route>
+        <Route exact path="/logIn" children={<LogIn />}></Route>
+        <Route exact path="/signUp" children={<SignUp />}></Route>
       </Switch>
 
-      <Home pagina = {location.pathname}/>
+      <Dashboard pagina = {location.pathname}/>
       <Switch>
-        <Route exact path="/requalificacao" children={<requalificacao />}></Route>
-        <Route exact path="/emprego" children={<emprego />}></Route>
-        <Route exact path="/perfil" children={<children />}></Route>
+        <Route exact path="/requalificacao" children={<Bootcamp />}></Route>
+        <Route exact path="/emprego" children={<Jobs />}></Route>
+        <Route exact path="/perfil" children={<Profile />}></Route>
       </Switch>
 
       {/* routs para levar para sites de requalificaçao ou sites de emprego */}
