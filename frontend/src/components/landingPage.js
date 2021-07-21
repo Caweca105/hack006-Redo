@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
-import {
-    Link, useHistory
-} from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 function LandingPage({ pagina }) {
     return <div>
@@ -10,4 +8,4 @@ function LandingPage({ pagina }) {
     </div>
 }
 
-export default LandingPage
+export default LandingPage;
