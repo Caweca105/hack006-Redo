@@ -6,7 +6,6 @@ import Navbar from './Navbar'
 
 
 
-
     function LandingPage({ pagina }) {
             return (
                 <div className={styles.Landingpage}>
