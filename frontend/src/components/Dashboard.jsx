@@ -8,12 +8,16 @@ function Dashboard() {
         <img src="/images/sinta_logo.png" />
       </div>
       <div className={styles.Container}>
-      <div className={styles.Profile}></div>
-      <div className={styles.Main}></div>
-      <div className={styles.Content}>
-        <div className={styles.Bootcamp}></div>
-        <div className={styles.Jobs}></div>
-      </div>
+        <div className={styles.Profile}>
+          Nome
+        </div>
+        <div className={styles.Main}>
+          <div className={styles.Card}>Conteudo</div>
+        </div>
+        <div className={styles.Content}>
+          <div className={styles.Bootcamp}>Escolas</div>
+          <div className={styles.Jobs}>Empregos</div>
+        </div>
       </div>
     </div>
   );
