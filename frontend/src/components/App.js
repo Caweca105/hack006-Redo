@@ -3,7 +3,7 @@ import styles from '../styles/App.module.css'
 
 function App() {
   return (
-    <div className={styles.App.module.css}>
+    <div className={styles.App}>
       
     </div>
   );
