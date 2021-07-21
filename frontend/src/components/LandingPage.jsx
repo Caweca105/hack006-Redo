@@ -1,6 +1,8 @@
 import React from 'react'
+import Navbar from './Navbar';
 import styles from '../styles/Landingpage.module.css'
 import Navbar from './Navbar'
+
 
     function LandingPage({ pagina }) {
             return (
