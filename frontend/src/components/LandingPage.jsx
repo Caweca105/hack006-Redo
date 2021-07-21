@@ -3,11 +3,15 @@ import styles from '../styles/Landingpage.module.css'
 
     function LandingPage({ pagina }) {
             return (
-                <div className={styles.Landingpage}>
-                    <img className={styles.img3} src="/images/landingpage.png"/>
-                    
-                </div> 
-            )  
+                <>
+                    <div className={styles.Navbar}>
+                        <img src="/images/sinta_logo.png" />
+                    </div>
+                    <div className={styles.Landingpage}>
+                        <img className={styles.img3} src="/images/landingpage.png"/>
+                    </div> 
+                </>
+                )  
         };
         
 
