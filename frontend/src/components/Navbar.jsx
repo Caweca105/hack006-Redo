@@ -8,7 +8,9 @@ function Navbar() {
  return (
     <div className={styles.Navbar}>
         <img src="/images/sinta_logo.png" />
-        
+        <Link to="/bootcamp">Bootcamps</Link>
+        <Link to="/jobs">Empregos</Link>
+        <Link to="/profile">Meu Perfil</Link>
     </div>
  )
 }
