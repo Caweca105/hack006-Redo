@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
@@ -32,6 +33,16 @@ function App() {
         <Route exact path=""></Route>
       </Switch>
     </div>;
+=======
+import logo from './logo.svg';
+import './App.css';
+import LandingPage from './landingpage';
+
+function App() {
+  return (
+    <LandingPage/>
+  )
+>>>>>>> d8c9a3ec5c47c55f7aa6f23d1176b60dcbac723c
 }
 
 export default App;
