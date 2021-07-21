@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Dashboard from './components/Dashboard';
+import LandingPage from './components/LandingPage'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Dashboard />
+    <LandingPage/>
   </React.StrictMode>,
   document.getElementById('root')
 );
