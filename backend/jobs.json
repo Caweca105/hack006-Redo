@@ -1,0 +1,28 @@
+{
+    "jobs": [
+        {
+            "name": "Sapo Empregos",
+            "website": ""
+        },
+        {
+            "name": "Net-Empregos",
+            "website": ""
+        },
+        {
+            "name": "Adecco",
+            "website": ""
+        },
+        {
+            "name": "Indeed",
+            "website": ""
+        },
+        {
+            "name": "IT Jobs",
+            "website": ""
+        },
+        {
+            "name": "IEFP",
+            "website": ""
+        }
+    ]
+}
