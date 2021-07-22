@@ -5,10 +5,13 @@ import { Link } from 'react-router-dom';
 
 function Dashboard() {
 
-  const [Bootcamps, setBootcamps] = useState([])
-  useEffect(() => {
+  const [bootcamps, setBootcamps] = useState([])
+  const [jobs, setJobs] = useState([])
 
-    setBootcamps()
+
+  useEffect(() => {
+    
+    //setBootcamps([])
     
   }, []);
   return (
@@ -32,72 +35,49 @@ function Dashboard() {
             </form>
           </div>
         </div>
-        {
-          Bootcamps.map((bootcamp, index) => {
-            return (
-              <Link to={`/bootcamp/${bootcamp._id}`}>
-              <div className={styles.Bootcamp}>
-                <div className={styles.card}>
-                  <img src="/images/lecapsule_js.png" />
-                  <div className={styles.container}>
-                    <h4>{bootcamp.name}</h4>
-                  </div>
-                </div>
-                </div>
-              </Link>
-
-            )
-          })
-        }
         <div className={styles.Content}>
           <div className={styles.ContentTitle}>
             <Link to="/bootcamp"><h2>Bootcamps</h2></Link> 
-            <div className={styles.Bootcamp}>
-              <div className={styles.card}>
-                <img src="/images/lecapsule_js.png" />
-                <div className={styles.container}>
-                  <h4>Le capsule</h4>
-                </div>
-              </div>
-              <div className={styles.card}>
-                <img src="/images/b4f_js.png" />
-                <div className={styles.container}>
-                  <h4>Bytes4Future</h4>
-                </div>
-              </div>
-              <div className={styles.card}>
-                <img src="/images/ironhack_js.jpg" />
-                <div className={styles.container}>
-                  <h4>Ironhack</h4>
-                </div>
-              </div>
-            </div>
+            {
+              bootcamps.map((bootcamp, index) => {
+                return (
+                  <Link to={`/bootcamp/${bootcamp._id}`}>
+                    <div className={styles.Bootcamp}>
+                      <div className={styles.card}>
+                        <img src="/images/lecapsule_js.png" />
+                        <div className={styles.container}>
+                          <h4>{bootcamp.name}</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+
+                )
+              })
+            }
           </div>
+        
           <div className={styles.ContentTitle}>
-            <Link to="/jobs"><h2>Empregos</h2></Link>
-            <div className={styles.Jobs}>
-              <div className={styles.card}>
-                <img src="/images/sapo_js.png" />
-                <div className={styles.container}>
-                  <h4>Sapo Empregos</h4>
-                </div>
-              </div>
-              <div className={styles.card}>
-                <img src="/images/adecco_js.png" />
-                <div className={styles.container}>
-                  <h4>Adecco</h4>
-                </div>
-              </div>
-              <div className={styles.card}>
-                <img src="/images/indeed_js.png" />
-                <div className={styles.container}>
-                  <h4>Indeed</h4>
-                </div>
-              </div>
-            </div>
+            <Link to="/bootcamp"><h2>Empregos</h2></Link> 
+            {
+              jobs.map((jobs, index) => {
+                return (
+                  <Link to={`/bootcamp/${jobs._id}`}>
+                    <div className={styles.Bootcamp}>
+                      <div className={styles.card}>
+                        <img src="/images/lecapsule_js.png" />
+                        <div className={styles.container}>
+                          <h4>{jobs.name}</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+
+                )
+              })
+            }
           </div>
-          
-        </div>
+        </div>  
       </div>
     </div>
   );

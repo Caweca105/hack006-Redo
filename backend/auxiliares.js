@@ -12,20 +12,20 @@ async function sendBootcampsToDb(data) {
 }
 
 async function sendJobsToDb(data) {
-    const collection = await getCollection(DB_NAME, JOBS_COLLECTION)
+    const collection = await getCollection(DB_NAME,JOBS_COLLECTION)
     const result = await collection.insertMany(data.jobs)
     return result
 }
 
 
 async function findJobs() {
-    const jobs = await getCollection(DB_NAME, JOBS_COLLECTION)
-
+    const job = await getCollection(DB_NAME,JOBS_COLLECTION)
+    const jobs = await job.find().toArray()
     return jobs;
 }
 
 async function findBootcamp() {
-    const bootcamp = await getCollection(BOOTCAMP_COLLECTION)
+    const bootcamp = await getCollection(DB_NAME,BOOTCAMP_COLLECTION)
     const bootcamps = await bootcamp.find().toArray()
     return bootcamps;
 }
