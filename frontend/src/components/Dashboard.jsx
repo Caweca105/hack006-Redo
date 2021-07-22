@@ -4,6 +4,13 @@ import styles from '../styles/Dashboard.module.css';
 import { Link } from 'react-router-dom';
 
 function Dashboard() {
+
+  const [Bootcamps, setBootcamps] = useState([])
+  useEffect(() => {
+
+    setBootcamps()
+    
+  }, []);
   return (
     <div className={styles.Dashboard}>
       <Navbar />
@@ -25,6 +32,23 @@ function Dashboard() {
             </form>
           </div>
         </div>
+        {
+          Bootcamps.map((bootcamp, index) => {
+            return (
+              <Link to={`/bootcamp/${bootcamp._id}`}>
+              <div className={styles.Bootcamp}>
+                <div className={styles.card}>
+                  <img src="/images/lecapsule_js.png" />
+                  <div className={styles.container}>
+                    <h4>{bootcamp.name}</h4>
+                  </div>
+                </div>
+                </div>
+              </Link>
+
+            )
+          })
+        }
         <div className={styles.Content}>
           <div className={styles.ContentTitle}>
             <Link to="/bootcamp"><h2>Bootcamps</h2></Link> 

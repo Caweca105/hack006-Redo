@@ -1,5 +1,5 @@
 import express from 'express';
-const { findBootcamp, findJobs}
+const { findBootcamp, findJobs} = require
 
 const PORT = 3601
 const app = express()

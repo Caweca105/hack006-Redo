@@ -25,9 +25,9 @@ async function findJobs() {
 }
 
 async function findBootcamp() {
-    const bootcamp = await getCollection(DB_NAME, BOOTCAMP_COLLECTION)
-    
-    return bootcamp;
+    const bootcamp = await getCollection(BOOTCAMP_COLLECTION)
+    const bootcamps = await bootcamp.find().toArray()
+    return bootcamps;
 }
 
 module.exports = {
