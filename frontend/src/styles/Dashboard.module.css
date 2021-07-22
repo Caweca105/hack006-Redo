@@ -14,13 +14,13 @@
 .Profile {
     background: gray;
     width: 25%;
-    height: 100vh;
+    height: 91vh;
 }
 
 .ContainerMain {
     
     width: 50%;
-    height: 100vh;
+    height: 91vh;
 }
 
 .Main {
@@ -32,12 +32,19 @@
     height: 70vh;
 }
 
+.Support {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 21vh;
+}
 
 .Content {
     display: flex;
     flex-direction: column;
     width: 25%;
-    height: 100vh;
+    height: 91vh;
 }
 
 .Bootcamp {
