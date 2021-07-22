@@ -8,7 +8,7 @@ function Dashboard() {
   const [Bootcamps, setBootcamps] = useState([])
   useEffect(() => {
 
-    setBootcamps()
+    // setBootcamps()
     
   }, []);
   return (

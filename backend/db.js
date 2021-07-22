@@ -1,4 +1,4 @@
-import mongodb from 'mongodb';
+const mongodb = require('mongodb');
 
 
 // salvar uma constante mongo_client
@@ -8,7 +8,7 @@ const { MongoClient } = mongodb
 const URI = 'mongodb://localhost:27017'
 
 //constante com a nossa BD 
-const DB_GARCONET = "authentication"
+const DB_REDO = "authentication"
 
 //Declarar o client
 let client
