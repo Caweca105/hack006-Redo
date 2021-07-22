@@ -2,27 +2,27 @@
     "jobs": [
         {
             "name": "Sapo Empregos",
-            "website": ""
+            "website": "https://emprego.sapo.pt/"
         },
         {
             "name": "Net-Empregos",
-            "website": ""
+            "website": "https://www.net-empregos.com/"
         },
         {
             "name": "Adecco",
-            "website": ""
+            "website": "https://www.adecco.pt/"
         },
         {
             "name": "Indeed",
-            "website": ""
+            "website": "https://pt.indeed.com/"
         },
         {
             "name": "IT Jobs",
-            "website": ""
+            "website": "https://www.itjobs.pt/"
         },
         {
             "name": "IEFP",
-            "website": ""
+            "website": "https://www.iefp.pt/"
         }
     ]
 }
