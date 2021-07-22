@@ -2,27 +2,33 @@
     "jobs": [
         {
             "name": "Sapo Empregos",
-            "website": "https://emprego.sapo.pt/"
+            "website": "https://emprego.sapo.pt/",
+            "image": "./sapo_js.png"
         },
         {
             "name": "Net-Empregos",
-            "website": "https://www.net-empregos.com/"
+            "website": "https://www.net-empregos.com/",
+            "image": "./netempregos_js.jpg"
         },
         {
             "name": "Adecco",
-            "website": "https://www.adecco.pt/"
+            "website": "https://candidatos.adecco.pt/",
+            "image": "./adecco_js.png"
         },
         {
             "name": "Indeed",
-            "website": "https://pt.indeed.com/"
+            "website": "https://pt.indeed.com/",
+            "image": "./indeed_js.png"
         },
         {
             "name": "IT Jobs",
-            "website": "https://www.itjobs.pt/"
+            "website": "https://www.itjobs.pt/",
+            "image": "./itjobs_js.jpg"
         },
         {
             "name": "IEFP",
-            "website": "https://www.iefp.pt/"
+            "website": "https://iefponline.iefp.pt/IEFP/pesquisas/search.do?cat=ofertaEmprego",
+            "image": "./iefp_js.png"
         }
     ]
 }

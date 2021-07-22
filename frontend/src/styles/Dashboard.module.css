@@ -19,7 +19,7 @@
 
 .ContainerMain {
     
-    width: 50%;
+    width: 40%;
     height: 91vh;
 }
 
@@ -40,21 +40,61 @@
     height: 21vh;
 }
 
+.Support input {
+    max-width: 200px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.Support input:hover {
+    transform: scale(1.2);
+} 
+
 .Content {
     display: flex;
     flex-direction: column;
-    width: 25%;
-    height: 91vh;
+    width: 35%;
+    height: 50vh;
+}
+
+.ContentTitle a, h2{
+    text-decoration: none;
+    padding: 10px 0 0 10px;
 }
 
 .Bootcamp {
-    background: black;
+    display: flex;
+    flex-direction: row;
     width: 100%;
-    height: 50vh;
+    height: 35vh;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.card img {
+    max-width: 202px;
+    height: 202px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 16px;
+    
 }
 
 .Jobs {
-    background: red;
     width: 100%;
-    height: 50vh;
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
 }

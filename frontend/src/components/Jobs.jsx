@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from './Navbar'
+
 
 function Jobs() {
     const [jobs, setJobs] = useState([])
@@ -15,6 +17,7 @@ function Jobs() {
 
     return ( 
     <>
+        <Navbar />
         <h2>Jobs</h2>
         <div>
             {
