@@ -26,12 +26,53 @@ function Dashboard() {
           </div>
         </div>
         <div className={styles.Content}>
-          <div className={styles.Bootcamp}>
-            <Link to="/bootcamp">Bootcamp</Link>
+          <div className={styles.ContentBootcamp}>
+            <Link to="/bootcamp"><h2>Bootcamps</h2></Link> 
+            <div className={styles.Bootcamp}>
+              <div className={styles.card}>
+                <img src="/images/lecapsule_js.png" />
+                <div className={styles.container}>
+                  <h4>Le capsule</h4>
+                </div>
+              </div>
+              <div className={styles.card}>
+                <img src="/images/b4f_js.png" />
+                <div className={styles.container}>
+                  <h4>Bytes4Future</h4>
+                </div>
+              </div>
+              <div className={styles.card}>
+                <img src="/images/ironhack_js.jpg" />
+                <div className={styles.container}>
+                  <h4>Ironhack</h4>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className={styles.Jobs}>
-            <Link to="/jobs">Empregos</Link>
+          <div className={styles.ContentJobs}>
+            <Link to="/jobs"><h2>Empregos</h2></Link>
+            <div className={styles.Jobs}>
+              <div className={styles.card}>
+                <img src="/images/sapo_js.png" />
+                <div className={styles.container}>
+                  <h4>Sapo Empregos</h4>
+                </div>
+              </div>
+              <div className={styles.card}>
+                <img src="/images/adecco_js.png" />
+                <div className={styles.container}>
+                  <h4>Adecco</h4>
+                </div>
+              </div>
+              <div className={styles.card}>
+                <img src="/images/indeed_js.png" />
+                <div className={styles.container}>
+                  <h4>Indeed</h4>
+                </div>
+              </div>
+            </div>
           </div>
+          
         </div>
       </div>
     </div>
