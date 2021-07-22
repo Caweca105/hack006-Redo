@@ -20,13 +20,13 @@ function Dashboard() {
             <form action="https://www.portaldasfinancas.gov.pt/at/html/index.html" target="_blank">
               <input type="submit" value="Portal das Finanças" />
             </form>
-            <form action="https://iefponline.iefp.pt/IEFP/index2.jsp" target="_blank">portal das finanças
+            <form action="https://iefponline.iefp.pt/IEFP/index2.jsp" target="_blank">
               <input type="submit" value="IEFP" />
             </form>
           </div>
         </div>
         <div className={styles.Content}>
-          <div className={styles.ContentBootcamp}>
+          <div className={styles.ContentTitle}>
             <Link to="/bootcamp"><h2>Bootcamps</h2></Link> 
             <div className={styles.Bootcamp}>
               <div className={styles.card}>
@@ -49,7 +49,7 @@ function Dashboard() {
               </div>
             </div>
           </div>
-          <div className={styles.ContentJobs}>
+          <div className={styles.ContentTitle}>
             <Link to="/jobs"><h2>Empregos</h2></Link>
             <div className={styles.Jobs}>
               <div className={styles.card}>
