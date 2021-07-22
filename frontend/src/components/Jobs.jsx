@@ -7,8 +7,10 @@ function Jobs() {
     const [jobs, setJobs] = useState([])
     
     async function fetchJobs() {
+        console.log('fetch')
         const res = await fetch('/api/jobs')
         const resBody = await res.json();
+        console.log(resBody)
         setJobs(resBody.jobs)
     }
     useEffect(() => {
@@ -17,8 +19,12 @@ function Jobs() {
 
     return ( 
     <>
-        <Navbar />
-        <h2>Jobs</h2>
+    <div>
+    <Navbar />
+    </div>
+    <div>
+    <h2>Jobs</h2>
+    </div>
         <div>
             {
                 jobs.map(jobs => (
@@ -26,7 +32,7 @@ function Jobs() {
                     key={jobs._id}
                 >
                     <div>
-                    <Link to={{ pathname: jobs.website }} target="_blank" >{jobs.name}</Link>
+                    <a href={{ pathname: jobs.website }} target="_blank" >{jobs.name}</a>
                     </div>
                     </div>
                 ))
