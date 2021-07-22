@@ -32,7 +32,7 @@ function Dashboard() {
             </form>
           </div>
         </div>
-        {
+        {/* {
           Bootcamps.map((bootcamp, index) => {
             return (
               <Link to={`/bootcamp/${bootcamp._id}`}>
@@ -48,7 +48,7 @@ function Dashboard() {
 
             )
           })
-        }
+        } */}
         <div className={styles.Content}>
           <div className={styles.ContentTitle}>
             <Link to="/bootcamp"><h2>Bootcamps</h2></Link> 
