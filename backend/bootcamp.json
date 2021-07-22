@@ -6,7 +6,7 @@
             "contact": "21 926 7080",
             "email": "geral@bytes4future.pt",
             "website": "https://bytes4future.pt/en",
-            "image": "./b4f_js.png"
+            "image": "/images/b4f-js.png"
         },
         {
             "name": "Academia do Código",
@@ -14,7 +14,7 @@
             "contact": "21 926 7080",
             "email": "contact@academiadocodigo.org",
             "website": "https://www.academiadecodigo.org/",
-            "image": "./academia_js.jpg"
+            "image": "/images/academia-js.jpg"
         },
         {
             "name": "Ironhack",
@@ -22,7 +22,7 @@
             "contact": "21 926 7080",
             "email": "contact@ironhack.com",
             "website": "https://www.ironhack.com/pt",
-            "image": "./ironhack_js.jpg"
+            "image": "/images/ironhack-js.jpg"
         },
         {
             "name": "Le Wagon",
@@ -30,7 +30,7 @@
             "contact": "+351 911 902 020",
             "email": "contact@lewagon.com",
             "website": "https://www.lewagon.com/",
-            "image": "./lewagon_js.png"
+            "image": "/images/lewagon-js.png"
         },
         {
             "name": "Le Capsule",
@@ -38,7 +38,7 @@
             "contact": "21 926 7080",
             "email": "contact@lecapusle.academy",
             "website": "https://www.lacapsule.academy/",
-            "image": "./lecapsule_js.png"
+            "image": "/images/lecapsule-js.png"
         },
         {
             "name": "42 Lisboa",
@@ -46,7 +46,7 @@
             "contact": "21 926 7080",
             "email": "contact@42lisboa.com",
             "website": "https://www.42lisboa.com/",
-            "image": "./42_js.jpg"
+            "image": "/images/42-js.jpg"
         }
     ]
 }
