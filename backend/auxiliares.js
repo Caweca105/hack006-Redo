@@ -13,8 +13,8 @@ async function findJobs(jobs) {
 
 async function findBootcamp() {
     const bootcamp = await getCollection(BOOTCAMP_COLLECTION)
-    
-    return bootcamp;
+    const bootcamps = await bootcamp.find().toArray()
+    return bootcamps;
 }
 
 module.exports = {
