@@ -9,10 +9,10 @@ function Navbar() {
     <div className={styles.Navbar}>
         <img src="/images/sinta-logo.png" />
         <div className={styles.LinkNavbar}>
+            <Link to="/dashboard">Home</Link>
             <Link to="/bootcamp">Bootcamps</Link>
             <Link to="/jobs">Empregos</Link>
-            <Link to="/profile">Meu Perfil</Link>
-            <Link to="/dashboard">Página Inicial</Link>
+            
         </div>
         <div className={styles.LogOut}>
             <Link to="/">Log Out</Link>
