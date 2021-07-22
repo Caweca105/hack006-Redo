@@ -61,31 +61,31 @@ function Dashboard() {
             <Link to="/bootcamp"><h2>Bootcamps</h2></Link> 
             <div className={styles.Bootcamp}>
               <div className={styles.card}>
-                <img src="/images/lecapsule_js.png" />
+                <img src="/images/lecapsule-js.png" />
                 <div className={styles.container}>
                   <h4>Le capsule</h4>
                 </div>
               </div>
               <div className={styles.card}>
-                <img src="/images/b4f_js.png" />
+                <img src="/images/b4f-js.png" />
                 <div className={styles.container}>
                   <h4>Bytes4Future</h4>
                 </div>
               </div>
               <div className={styles.card}>
-                <img src="/images/ironhack_js.jpg" />
+                <img src="/images/ironhack-js.jpg" />
                 <div className={styles.container}>
                   <h4>Ironhack</h4>
                 </div>
               </div>
               <div className={styles.card}>
-                <img src="/images/42_js.jpg" />
+                <img src="/images/42-js.jpg" />
                 <div className={styles.container}>
                   <h4>42 Lisboa</h4>
                 </div>
               </div>
               <div className={styles.card}>
-                <img src="/images/academia_js.jpg" />
+                <img src="/images/academia-js.jpg" />
                 <div className={styles.container}>
                   <h4>Academia do Código</h4>
                 </div>
@@ -96,31 +96,31 @@ function Dashboard() {
             <Link to="/jobs"><h2>Empregos</h2></Link>
             <div className={styles.Jobs}>
               <div className={styles.card}>
-                <img src="/images/sapo_js.png" />
+                <img src="/images/sapo-js.png" />
                 <div className={styles.container}>
                   <h4>Sapo Empregos</h4>
                 </div>
               </div>
               <div className={styles.card}>
-                <img src="/images/adecco_js.png" />
+                <img src="/images/adecco-js.png" />
                 <div className={styles.container}>
                   <h4>Adecco</h4>
                 </div>
               </div>
               <div className={styles.card}>
-                <img src="/images/indeed_js.png" />
+                <img src="/images/indeed-js.png" />
                 <div className={styles.container}>
                   <h4>Indeed</h4>
                 </div>
               </div>
               <div className={styles.card}>
-                <img src="/images/netempregos_js.jpg" />
+                <img src="/images/netempregos-js.jpg" />
                 <div className={styles.container}>
                   <h4>Net-Empregos</h4>
                 </div>
               </div>
               <div className={styles.card}>
-                <img src="/images/iefp_js.png" />
+                <img src="/images/iefp-js.png" />
                 <div className={styles.container}>
                   <h4>IEFP</h4>
                 </div>

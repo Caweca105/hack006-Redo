@@ -7,7 +7,7 @@ import { Link, useHistory } from "react-router-dom";
 function Navbar() {
  return (
     <div className={styles.Navbar}>
-        <img src="/images/sinta_logo.png" />
+        <img src="/images/sinta-logo.png" />
         <div className={styles.LinkNavbar}>
             <Link to="/bootcamp">Bootcamps</Link>
             <Link to="/jobs">Empregos</Link>
