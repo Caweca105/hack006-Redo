@@ -4,6 +4,13 @@ import styles from '../styles/Dashboard.module.css';
 import { Link } from 'react-router-dom';
 
 function Dashboard() {
+
+  const [Bootcamps, setBootcamps] = useState([])
+  useEffect(() => {
+
+    setBootcamps()
+    
+  }, []);
   return (
     <div className={styles.Dashboard}>
       <Navbar />
@@ -15,16 +22,33 @@ function Dashboard() {
           <div className={styles.Main}>Conteudo</div>
           <div className={styles.Support}>
             <form action="https://www.seg-social.pt/inicio" target="_blank">
-              <input type="submit" value="Seg Social"  />
+              <input type="image" value="Seg Social" src="/images/segsocial.png" />
             </form>
             <form action="https://www.portaldasfinancas.gov.pt/at/html/index.html" target="_blank">
-              <input type="submit" value="Portal das Finanças" />
+              <input type="image" value="Portal das Finanças" src="/images/financas.png"/>
             </form>
             <form action="https://iefponline.iefp.pt/IEFP/index2.jsp" target="_blank">
-              <input type="submit" value="IEFP" />
+              <input type="image" value="IEFP" src="/images/IEFP.png"/>
             </form>
           </div>
         </div>
+        {
+          Bootcamps.map((bootcamp, index) => {
+            return (
+              <Link to={`/bootcamp/${bootcamp._id}`}>
+              <div className={styles.Bootcamp}>
+                <div className={styles.card}>
+                  <img src="/images/lecapsule_js.png" />
+                  <div className={styles.container}>
+                    <h4>{bootcamp.name}</h4>
+                  </div>
+                </div>
+                </div>
+              </Link>
+
+            )
+          })
+        }
         <div className={styles.Content}>
           <div className={styles.ContentTitle}>
             <Link to="/bootcamp"><h2>Bootcamps</h2></Link> 
