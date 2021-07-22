@@ -15,13 +15,13 @@ function Dashboard() {
           <div className={styles.Main}>Conteudo</div>
           <div className={styles.Support}>
             <form action="https://www.seg-social.pt/inicio" target="_blank">
-              <input type="submit" value="Seg Social"  />
+              <input type="image" value="Seg Social" src="/images/segsocial.png" />
             </form>
             <form action="https://www.portaldasfinancas.gov.pt/at/html/index.html" target="_blank">
-              <input type="submit" value="Portal das Finanças" />
+              <input type="image" value="Portal das Finanças" src="/images/financas.png"/>
             </form>
             <form action="https://iefponline.iefp.pt/IEFP/index2.jsp" target="_blank">
-              <input type="submit" value="IEFP" />
+              <input type="image" value="IEFP" src="/images/IEFP.png"/>
             </form>
           </div>
         </div>
