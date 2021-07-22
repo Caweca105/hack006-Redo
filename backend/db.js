@@ -7,7 +7,7 @@ async function connect (uri) {
     try {
         if(client) return client;
         client = new MongoClient (uri, {
-            usedUnifiedTopology: true
+            useUnifiedTopology: true
         })
         await client.connect();
 
