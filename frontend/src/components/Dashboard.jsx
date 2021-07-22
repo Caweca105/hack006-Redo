@@ -20,7 +20,7 @@ function Dashboard() {
             <form action="https://www.portaldasfinancas.gov.pt/at/html/index.html" target="_blank">
               <input type="submit" value="Portal das Finanças" />
             </form>
-            <form action="https://iefponline.iefp.pt/IEFP/index2.jsp" target="_blank">
+            <form action="https://iefponline.iefp.pt/IEFP/index2.jsp" target="_blank">portal das finanças
               <input type="submit" value="IEFP" />
             </form>
           </div>
