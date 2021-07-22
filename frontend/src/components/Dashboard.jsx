@@ -9,7 +9,7 @@ function Dashboard() {
       <Navbar />
       <div className={styles.Container}>
         <div  className={styles.Profile}>
-          <Link to="/profile">Profile</Link>
+          <Link to="/profile">Perfil</Link>
         </div>
         <div className={styles.ContainerMain}>
           <div className={styles.Main}>Conteudo</div>
@@ -30,7 +30,7 @@ function Dashboard() {
             <Link to="/bootcamp">Bootcamp</Link>
           </div>
           <div className={styles.Jobs}>
-            <Link to="/jobs">Jobs</Link>
+            <Link to="/jobs">Empregos</Link>
           </div>
         </div>
       </div>
