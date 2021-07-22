@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar'
+import styles from '../styles/Bootcamp.module.css';
 
 
 function Jobs() {
@@ -22,17 +23,20 @@ function Jobs() {
     <div>
     <Navbar />
     </div>
-    <div>
+    <div className={styles.title}>
     <h2>Jobs</h2>
     </div>
-        <div>
+        <div className={styles.todos}>
             {
                 jobs.map(jobs => (
                     <div
                     key={jobs._id}
                 >
-                    <div>
-                    <a href={{ pathname: jobs.website }} target="_blank" >{jobs.name}</a>
+                    <div lassName={styles.imagemCenas}>
+            <a href={jobs.website} target="_blank">
+                <img src={jobs.image}/></a>
+                <div/>
+            
                     </div>
                     </div>
                 ))
