@@ -12,6 +12,7 @@ function Navbar() {
             <Link to="/bootcamp">Bootcamps</Link>
             <Link to="/jobs">Empregos</Link>
             <Link to="/profile">Meu Perfil</Link>
+            <Link to="/dashboard">Página Inicial</Link>
         </div>
         <div className={styles.LogOut}>
             <Link to="/">Log Out</Link>
