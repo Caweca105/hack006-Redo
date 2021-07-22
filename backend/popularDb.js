@@ -1,5 +1,5 @@
-const { sendBootcampsToDb} = require("./db");
-const { sendJobsToDb} = require("./db")
+const { sendBootcampsToDb } = require("./db");
+const { sendJobsToDb } = require("./db")
 const fs = require("fs")
 
 const MEMORY_BOOTCAMPS = "./DB/bootcamp.json"
@@ -21,4 +21,4 @@ async function insertJobs(memory) {
 }
 
 insertBootcamp(MEMORY_BOOTCAMPS).then(() => console.log("inserted bootcamps"))
-insertJons(MEMORY_JOBS).then(() => console.log("inserted jobs"))
+insertJobs(MEMORY_JOBS).then(() => console.log("inserted jobs"))
