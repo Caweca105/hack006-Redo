@@ -1,7 +1,7 @@
 const { ObjectId } = require("mongodb");
 const { getCollection } = require("./db");
 
-const DB_NAME = "ReDo"
+const DB_NAME = "redo"
 const JOBS_COLLECTION = "jobs"
 const BOOTCAMP_COLLECTION = "bootcamp"
 
@@ -25,7 +25,7 @@ async function findJobs() {
 }
 
 async function findBootcamp() {
-    const bootcamp = await getCollection(BOOTCAMP_COLLECTION)
+    const bootcamp = await getCollection(DB_NAME, BOOTCAMP_COLLECTION)
     const bootcamps = await bootcamp.find().toArray()
     return bootcamps;
 }

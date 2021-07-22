@@ -1,5 +1,5 @@
 const express = require('express');
-const { findBootcamp, findJobs} = require;
+const { findBootcamp, findJobs} = require('./auxiliares');
 
 const PORT = 3601
 const app = express()
