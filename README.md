@@ -1,13 +1,16 @@
 # hack006-Redo
  Group Project
 
-O projecto terá o nome de Redo e o slogan será "Your New Path"
+O projecto terá o nome de Redo e o slogan será "Um novo caminho"
 
 Requisitos:
 - Página de login
 - Página de registo
 - Landing Page
-- Homepage
+- Dashboard
     - procura de emprego
-    - ofertas de mudança de carreira
--Base de Dados
+    - procura de cursos
+- Base de Dados
+---
+## Instruções
+Fazer npm install ou yarn install nos diretórios 
