@@ -5,10 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Dashboard() {
 
-  const [bootcamps, setBootcamps] = useState([])
-  const [jobs, setJobs] = useState([])
-
-
+  const [bootcamp, setBootcamps] = useState([])
   useEffect(() => {
     
     //setBootcamps([])

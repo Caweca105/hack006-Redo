@@ -6,8 +6,10 @@ function Bootcamp() {
     const [bootcamp, setBootcamp] = useState([])
     
     async function fetchBootcamp() {
-        const res = await fetch('/api/botcamp')
+        console.log('fetch')
+        const res = await fetch('/api/bootcamp')
         const resBody = await res.json();
+        console.log(resBody)
         setBootcamp(resBody.bootcamp)
     }
     useEffect(() => {
@@ -16,8 +18,12 @@ function Bootcamp() {
 
     return ( 
     <>
-        <Navbar />
-        <h2>Bootcamp</h2>
+    <div>
+    <Navbar />
+    </div>
+        <div>
+            <h2>Bootcamp</h2>
+        </div>
         <div>
             {
                 bootcamp.map(bootcamp => (
@@ -25,7 +31,7 @@ function Bootcamp() {
                         key={bootcamp._id}
                     >
                     <div>
-                    <Link to={{ pathname: bootcamp.website }} target="_blank" >{bootcamp.name}</Link>
+                    <a href={{ pathname: bootcamp.website }} target="_blank" >{bootcamp.name}</a>
                     </div>
                     </div>
                 ))
