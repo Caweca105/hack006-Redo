@@ -41,20 +41,14 @@
 }
 
 .Support input {
-    background: #5E9983;
-    color: #fff;
-    font-size: 1.5em;
+    max-width: 200px;
     padding: 10px 20px;
     border: none;
-    border-radius: 15px;
 }
 
 .Support input:hover {
-    background: #fff;
-    color: #5E9983;
-    border: 3px solid #5E9983;
-    transform: scale(1.05);
-}
+    transform: scale(1.2);
+} 
 
 .Content {
     display: flex;
