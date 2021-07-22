@@ -15,7 +15,7 @@ app.get("/api/bootcamp", async (req, res) => {
 
 app.get("/api/jobs", async (req, res) => {
     res.status(200).json({
-        jobs: await findJobs({ jobs })
+        jobs: await findJobs()
     })
 })
 

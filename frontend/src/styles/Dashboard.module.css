@@ -12,15 +12,22 @@
 }
 
 .Profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    width: 25%;
-    height: 91vh;
+    width: 20%;
+    height: 88vh;
+    padding: 40px; 
+    margin: 10px; 
+    border-radius: 8px;
+    background: #b7cfc7;
 }
 
 .ContainerMain {
     
     width: 40%;
-    height: 91vh;
+    height: 90vh;
 }
 
 .Main {
@@ -53,22 +60,42 @@
 .Content {
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 75%;
     height: 50vh;
+}
+
+.ContentTitle {
+    display: flex;
+    flex-direction: column;
 }
 
 .ContentTitle a, h2{
     text-decoration: none;
-    padding: 10px 0 0 10px;
+    margin-left: 10px; 
     color: #3f6658;
     font-size: 1.5em;
 }
+
+
+
+.Profile a, h2 {
+    text-decoration: none;
+    margin-left: 10px; 
+    color: #3f6658;
+    font-size: 1.5em;
+}
+
+.Profile img {
+    max-width: 256px;
+}
+
 
 .Bootcamp {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 35vh;
+    height: 33vh;
+    justify-content: space-around;
 }
 
 .card {
@@ -95,7 +122,8 @@
 
 .Jobs {
     width: 100%;
-    height: 35vh;
+    height: 33vh;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
